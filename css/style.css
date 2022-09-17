@@ -4,31 +4,45 @@
 html, 
 body {
     height: 100%;
-    background: rgb(231,137,204);
-    background: linear-gradient(0deg, rgba(231,137,204,1) 0%, rgba(96,42,157,1) 100%);
+    background: rgb(231, 137, 173);
+    background: linear-gradient(180deg, rgb(231, 137, 173) 0%, rgb(255, 188, 126) 100%);
 }
 
 .box-0 {
     text-align: start;
     height:100%;
     padding-top: 15%;
-    background: rgb(96,42,157);
-    background: linear-gradient(0deg, rgba(96,42,157,1) 0%, rgba(15,7,61,1) 100%)
+    /*background: rgb(96,42,157);
+    background: linear-gradient(0deg, rgb(122, 63, 189) 0%, rgb(78, 47, 151) 100%)*/
 }
 
-.box-0 h1{
-    margin-left: 100px;
-    margin-bottom: -0.2em;
+.big-title {
+    margin-left: 10%;
+    margin-bottom: -0.3em;
     font-family: "Sacramento", cursive;
-    font-size: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 20rem;
     color: white;
 }
 
+.big-title:hover {
+    color:  #f8bdff;
+    text-decoration: none;
+    text-shadow:0px 0px 30px #f8bdff;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;   
+}
+
 .box-0 h3{
-    margin-left: 300px;
-    letter-spacing: 0.3em;
+    margin-left: 25%;
+    /*letter-spacing: 0;*/
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 50px;
+    font-size: 5rem;
     color: white;
 }
 
@@ -53,27 +67,24 @@ second part
     text-align: start;
     height:100%;
     padding-top: 15%;
-    background: rgb(231,137,204);
-    background: linear-gradient(0deg, rgba(231,137,204,1) 0%, rgba(96,42,157,1) 100%);
+    /*background: rgb(231,137,204);
+    background: linear-gradient(0deg, rgba(231,137,204,1) 0%, rgb(122, 63, 189)  100%);*/
 }
 
 .box-1 h1{
-    margin-left: 200px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .box-1 p{
-    margin-left: 200px;
 }
 
 .sm-bar {
-    margin-left: 250px;
 }
 
-.sm-bar img {
-    max-height: 25%;
-    max-width: 25%;
-    margin-right: 15%;
+.icon {
+    width: 25px;
+    display: inline-block;
+    /*margin-right: -20%;*/
 }
 
 .headshot {
@@ -84,4 +95,13 @@ second part
     max-height: 50%; 
     max-width: 50%;
     border-radius: 50%;
+}
+
+.btn-nav {
+    background-color: white;
+    color: rgb(87, 28, 46);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    border-radius: 5px;
 }
