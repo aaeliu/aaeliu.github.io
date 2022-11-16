@@ -17,13 +17,14 @@ body {
 
 .big-title {
     margin-left: 10%;
+    margin-top: 0.2em;
     margin-bottom: -0.3em;
     font-family: "Sacramento", cursive;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    font-size: 20rem;
+    font-size: 13rem;
     color: rgb(247, 240, 235);
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 .box-0 h3{
-    margin-left: 25%;
+    margin-left: 15%;
     /*letter-spacing: 0;*/
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 5rem;
@@ -68,28 +69,32 @@ second part
     /*margin-right: -20%;*/
 }
 
-.headshot {
-    margin-left: 50px;
-}
-
-.headshot img {
-    max-height: 50%; 
-    max-width: 50%;
-    border-radius: 50%;
-}
-
 .btn-nav {
     background-color: rgb(247, 240, 235);
     color: rgb(87, 28, 46);
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2rem;
     letter-spacing: 0.2rem;
     border-radius: 5px;
 }
 
 .btn-nav:hover {
-    color:  rgb(255, 207, 74);
+    color:   #fff6e3;
     background-color:  #ff5f7a;
+}
+
+.btn-nav-title {
+    font-size: 2rem;
+}
+
+.btn-nav-header {
+    margin-right: 1%;
+}
+
+.nav {
+    font-size: 0.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .card-text {
@@ -100,5 +105,13 @@ second part
     padding-left: 5%;
     padding-bottom: 5%;
     border-radius: 10px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
     box-shadow: 20px 20px #ff5f7a;
+}
+
+.gallery-card {
+    border-radius: 5px;
+    margin-bottom: 10%;
+    box-shadow: 5px 5px #ff5f7a;
 }
