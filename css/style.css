@@ -7,6 +7,10 @@ body {
     background: rgb(236, 156, 176);
 }
 
+p {
+    font-size: 14px;
+}
+
 .box-0 {
     text-align: start;
     height:100%;
@@ -115,3 +119,28 @@ second part
     margin-bottom: 4%;
     box-shadow: 5px 5px #ff5f7a;
 }
+
+.tags {
+    margin: auto;
+    height: 28px;
+    width: max-content;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background-color: #ff5f7a;
+    color:#fff6e3;
+    font-weight: bold;
+    border-radius: 5px;
+    width: min-content;
+    /*height: 10%;*/
+    text-align: center;
+    float: left;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    font-size: 12px;
+  }
